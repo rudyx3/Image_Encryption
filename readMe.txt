@@ -1,3 +1,16 @@
+
+SYMMETRIC IMAGE ENCRYPTION USING FERNET 
+------------------------------------------------------------------------------------------------------
+A Command-Line tool designed for users to perform a simple image symmetric encryption and decryption with basic key management features combined with an easier to use interaction method.
+The following section covers an explanation about each of the files.
+------------------------------------------------------------------------------------------------------
+•	Key Generation (key_gen.py): Generates a cryptographic key using the Fernet method, crucial for the encryption and decryption processes.
+•	Encryption (img_enc.py): Handles image loading, conversion to byte format, encryption using the Fernet method, and saving the encrypted data.
+•	Decryption (img_dec.py): Reverses the encryption process to restore the original image from encrypted data.
+•	C++ Component (secureImage.cpp): Provides a CLI that integrates with the Python scripts, facilitating seamless user interactions for performing encryption and decryption tasks.
+
+This section covers how to use the tool effectively.
+------------------------------------------------------------------------------------------------------
 This is a step-by-step instruction or guide 
 to use the functionality.
 
